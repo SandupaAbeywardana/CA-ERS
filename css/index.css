@@ -1,0 +1,101 @@
+body {
+  /*width: 100%;*/
+  background-image: url("../images/SLICA-Colombo01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 80px;
+  background-color: #6b1519;
+}
+.menu {
+  width: 100%;
+  background: #6b1519;
+  overflow: auto;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 60px;
+}
+.menu li {
+  float: left;
+}
+.menu ul li a {
+  background: #6b1519;
+  text-decoration: none;
+  width: 150px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.5px;
+}
+.menu li a:hover {
+  color: #cccccc;
+  opacity: 0.5px;
+  font-size: 19px;
+}
+.main {
+  background: #000000;
+  opacity: 0.75;
+  border-radius: 25px;
+  width: 100%;
+  height: 600px;
+  margin-top: 25px;
+}
+.bodytxt {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  letter-spacing: 0.8px;
+}
+.bodytxt h1 {
+  line-height: 10px;
+}
+.bodytxt p {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: 75%;
+  line-height: 25px;
+}
+.palign {
+  margin: auto;
+  padding-left: 255px;
+}
+.logo {
+  position: inherit;
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+}
+.btn {
+  width: 200px;
+  height: 70px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #6b1519;
+  font-size: 25px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #6b1519;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copytext {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+}
