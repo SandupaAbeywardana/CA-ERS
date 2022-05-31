@@ -43,14 +43,14 @@ if ($resultcount > 0) {
     mysqli_query($conn, "UPDATE `formData` SET `student_Id`='".$student_Id."',`email`='".$email."',`name`='".$name."',`phone`='".$phone."',`medium`='".$medium."',`centre`='".$centre."',`module`='".$module."' WHERE submission_id='" . @$_POST["submission_id"] . "'");
     
     echo "<script>alert ('Details Appended Successfully!')</script>";
-    echo('<script>window.location.replace("../index.html");</script>');
+    echo('<script>window.location.replace("edit.php?");</script>');
 }
 
 else {
     mysqli_query($conn, "INSERT INTO formData(submission_id, formID, student_Id, email, name, phone, medium, centre, module) VALUES('$submission_id','$formID','$student_Id','$email','$name','$phone','$medium','$centre','$module')");
     
     echo "<script>alert ('Registration Successful! Please check your inbox for confirmation email.')</script>";
-    echo('<script>window.location.replace("../index.html");</script>');
+    echo('<script>window.location.replace("reg.php");</script>');
 }
 
 ?>
